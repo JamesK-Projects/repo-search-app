@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Lookup a GitHub user's repos using the form below:</h1>
+    </header>
+    <section class="input-form">
+        <form>
+            <input type="text" class="js-repo-search" required>
+            <input type="submit">
+        </form>
+    </section>
+    
+    <section class="repo-list hidden">
+        <div id="js-error-message" class="error-message"></div>
+        <h3>List of Repos:</h3>
+    </section>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
